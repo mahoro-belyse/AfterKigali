@@ -1,7 +1,6 @@
 # AfterClass Kigali
 
 A demo directory of after-school clubs for parents and teenagers in Kigali.
-Built for the Ishvexa Hub Web Development Internship (November to December 2026).
 
 > All clubs, names, schedules, prices, and contacts are fictional demo data.
 
