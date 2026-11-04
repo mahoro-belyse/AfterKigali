@@ -1,0 +1,38 @@
+[
+  {
+    "id": "club-001",
+    "name": "Hilltop Code Lab",
+    "activity": "coding",
+    "ageMin": 10,
+    "ageMax": 13,
+    "days": ["Tuesday", "Thursday"],
+    "area": "Kimihurura",
+    "description": "Build simple games and websites with friendly mentors.",
+    "priceMonthly": 20000,
+    "contact": "codelab@example.com"
+  },
+  {
+    "id": "club-002",
+    "name": "Sunrise Art Studio",
+    "activity": "art",
+    "ageMin": 6,
+    "ageMax": 9,
+    "days": ["Saturday"],
+    "area": "Kacyiru",
+    "description": "Painting, drawing, and craft sessions for young artists.",
+    "priceMonthly": 15000,
+    "contact": "artstudio@example.com"
+  },
+  {
+    "id": "club-003",
+    "name": "Drumbeat Music Circle",
+    "activity": "music",
+    "ageMin": 14,
+    "ageMax": 18,
+    "days": ["Wednesday", "Friday"],
+    "area": "Remera",
+    "description": "Learn drums, guitar, and keyboard, then play together.",
+    "priceMonthly": 25000,
+    "contact": "musiccircle@example.com"
+  }
+]
