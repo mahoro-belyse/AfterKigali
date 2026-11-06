@@ -4,6 +4,8 @@ After-school clubs for parents and teenagers in Kigali.
 
 > All clubs, names, schedules, prices, and contacts are fictional demo data.
 
+#Live demo: https://afterkigali.netlify.app/
+
 ## Scope
 - Intended user: parents and teenagers looking for an after-school activity
 - Primary action: search and filter clubs
