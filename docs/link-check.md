@@ -1,4 +1,4 @@
-# Link-check record (Week 1)
+# Link-check record 
 
 Test in the browser at http://localhost:5173 and write Pass or Fail. Do not fill in before testing.
 
@@ -16,5 +16,5 @@ Test in the browser at http://localhost:5173 and write Pass or Fail. Do not fill
 | Unknown address | Shows "Page not found" | | |
 
 What works:
-What is incomplete: Clubs and About pages (Week 2), working filters (Week 3), real data (Week 4)
+What is incomplete: Clubs and About pages , working filters , real data (Week 4)
 Next steps:
