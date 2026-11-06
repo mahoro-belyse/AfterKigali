@@ -7,8 +7,6 @@ const fieldClass =
 export default function SearchBar() {
   const navigate = useNavigate()
 
-  // Sends the search to the Clubs page as URL parameters.
-  // The working filters on that page are built in Week 3.
   function handleSubmit(e) {
     e.preventDefault()
     const params = new URLSearchParams()

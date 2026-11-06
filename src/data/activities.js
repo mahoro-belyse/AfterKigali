@@ -1,7 +1,5 @@
 import { Code, Trophy, Palette, Music, BookOpen, PersonStanding, Bot, Mic } from 'lucide-react'
 
-// The 8 activities used by the search bar, activity strip, and club cards.
-// "tint" holds the full Tailwind class names so Tailwind can detect them.
 export const ACTIVITIES = [
   { id: 'coding', label: 'Coding', icon: Code, tint: 'bg-rose text-cocoa' },
   { id: 'sports', label: 'Sports', icon: Trophy, tint: 'bg-butter text-cocoa' },
@@ -15,7 +13,6 @@ export const ACTIVITIES = [
 
 export const AGE_GROUPS = ['6-9', '10-13', '14-18']
 
-// Real Kigali neighbourhoods are used only as locations. The clubs in them are invented.
 export const AREAS = ['Kimihurura', 'Kacyiru', 'Nyarutarama', 'Remera', 'Kicukiro', 'Nyamirambo', 'Kimironko', 'Gikondo']
 
 export function getActivity(id) {
