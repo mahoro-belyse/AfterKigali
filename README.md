@@ -1,6 +1,6 @@
 # AfterClass Kigali
 
-A demo directory of after-school clubs for parents and teenagers in Kigali.
+After-school clubs for parents and teenagers in Kigali.
 
 > All clubs, names, schedules, prices, and contacts are fictional demo data.
 
@@ -57,8 +57,8 @@ Defined once in `src/index.css`.
 Photos, icons, and fonts are listed in `docs/source-log.md`.
 
 ## Status
-Week 1: planning complete, Home page built. Clubs and About are placeholders until Week 2.
+Home page built. Clubs and About are placeholders for now.
 
 ## AI assistance
-Planning documents and a first draft of the code were prepared with AI assistance (Claude).
+Planning documents and a first draft of the code were prepared with AI assistance.
 Design decisions, testing, and final edits are my own.
