@@ -133,7 +133,7 @@ export default function HeroSlideshow() {
         </div>
       ))}
 
-      <div className="relative mx-auto max-w-6xl px-4 pb-24 pt-14 md:pb-28 md:pt-20">
+      <div className="relative mx-auto max-w-6xl px-4 pb-24 pt-32 md:pb-28 md:pt-36">
         <div key={slide.id} className="slide-text max-w-xl">
           <h1 id="hero-title" className="text-4xl font-semibold leading-tight md:text-5xl">
             {slide.headline}
@@ -152,7 +152,7 @@ export default function HeroSlideshow() {
         <div
           key={`stickers-${slide.id}`}
           aria-hidden="true"
-          className="pointer-events-none mt-8 flex flex-wrap gap-2 md:absolute md:inset-0 md:mt-0 md:block"
+          className="pointer-events-none mt-8 flex flex-wrap gap-2 md:absolute md:inset-x-0 md:bottom-24 md:top-28 md:mt-0 md:block"
         >
           {slide.stickers.map((s, n) => (
             <div

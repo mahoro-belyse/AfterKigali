@@ -35,8 +35,8 @@ export default function Header() {
     ].join(' ')
 
   return (
-    <header className="border-b border-rose bg-white">
-  <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between px-4 py-3">
+    <header className="relative z-20 px-2 py-3 md:px-4 md:py-4">
+  <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between rounded-2xl border border-cocoa/20 bg-white/90 px-3 py-3 shadow-sm backdrop-blur md:px-4">
         <Link to="/" className="flex items-center gap-2 font-display text-xl font-semibold">
           <span
             aria-hidden="true"

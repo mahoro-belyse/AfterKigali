@@ -8,8 +8,9 @@ import NotFound from './pages/NotFound.jsx'
 
 export default function App() {
   return (
-    <div className="flex min-h-screen flex-col">
-      {/* Lets keyboard users jump past the navigation */}
+    <div className="p-1.5 md:px-2 md:py-3">
+  <div className="mx-auto flex min-h-[calc(100vh-0.75rem)] max-w-[1920px] flex-col overflow-hidden rounded-[2rem] bg-ivory md:min-h-[calc(100vh-1.5rem)]">
+      
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-butter focus:px-4 focus:py-2 focus:font-semibold focus:text-cocoa"
@@ -26,6 +27,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-    </div>
+    </div></div>
   )
 }

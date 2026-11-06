@@ -10,7 +10,9 @@ export default function Home() {
 
   return (
     <>
-      <HeroSlideshow />
+      <div className="-mt-28">
+  <HeroSlideshow />
+</div>
       {/* The search bar overlaps the bottom edge of the hero: negative margin + z-index */}
       <div className="relative z-10 -mt-10 px-4">
         <SearchBar />

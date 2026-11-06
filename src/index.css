@@ -16,7 +16,7 @@
 
 @layer base {
   body {
-    background-color: var(--color-ivory);
+    background-color: var(--color-rose);
     color: var(--color-cocoa);
     font-family: var(--font-body);
   }
