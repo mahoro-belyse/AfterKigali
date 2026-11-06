@@ -1,6 +1,6 @@
 import usePageTitle from '../hooks/usePageTitle.js'
 
-// Week 1 placeholder. Built fully in Week 2.
+
 export default function About() {
   usePageTitle('About | AfterClass Kigali')
   return (

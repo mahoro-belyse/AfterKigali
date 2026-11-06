@@ -1,7 +1,6 @@
 import { useSearchParams } from 'react-router-dom'
 import usePageTitle from '../hooks/usePageTitle.js'
 
-// Week 1 placeholder. The layout is built in Week 2, search and filters in Week 3.
 export default function Clubs() {
   usePageTitle('Clubs | AfterClass Kigali')
   const [params] = useSearchParams()

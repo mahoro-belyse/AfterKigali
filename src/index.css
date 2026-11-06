@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
-/* Design tokens: colours and fonts used across the whole site */
+
 @theme {
-  --color-raspberry: #D6336C;      /* primary: buttons, accents */
-  --color-raspberry-dark: #B02458; /* primary for text links and hover (better contrast) */
-  --color-cocoa: #5C3A2E;          /* secondary: text, headings, hero overlay */
-  --color-butter: #FFE066;         /* highlight: tags (always with dark text) */
-  --color-brick: #B3261E;          /* alerts and errors */
-  --color-ivory: #FFFBF5;          /* page background */
-  --color-rose: #F8E1E7;           /* soft fills */
+  --color-raspberry: #D6336C;      
+  --color-raspberry-dark: #B02458; 
+  --color-cocoa: #5C3A2E;         
+  --color-butter: #FFE066;         
+  --color-brick: #B3261E;          
+  --color-ivory: #FFFBF5;          
+  --color-rose: #F8E1E7;           
 
   --font-display: "Fredoka", ui-rounded, system-ui, sans-serif;
   --font-body: "Figtree", system-ui, sans-serif;
@@ -23,12 +23,12 @@
   h1, h2, h3 {
     font-family: var(--font-display);
   }
-  /* Visible keyboard focus on every interactive element */
+  
   :focus-visible {
     outline: 3px solid var(--color-cocoa);
     outline-offset: 3px;
   }
-  /* On dark backgrounds use a light focus ring */
+  
   .on-dark :focus-visible {
     outline-color: var(--color-butter);
   }
@@ -42,7 +42,6 @@
   animation: text-in 600ms ease-out;
 }
 
-/* Respect visitors who ask for less motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation: none !important;
