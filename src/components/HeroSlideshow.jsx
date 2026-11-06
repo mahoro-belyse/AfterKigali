@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom'
 
 const INTERVAL_MS = 6000
 
-// Each slide has its own colours, shapes, and activity stickers. No photos needed.
-// Shape: { type, color, size, top, right, rotate }  (sizes and offsets are in px)
-// Sticker: { label, bg, fg, rotate, top, right }    (top and right are used on desktop only)
 const SLIDES = [
   {
     id: 'sports',
@@ -68,7 +65,7 @@ function Shape({ shape }) {
   if (type === 'square') return <div style={{ ...base, borderRadius: 24, background: color }} />
   if (type === 'ring')
     return <div style={{ ...base, borderRadius: '50%', border: `${Math.round(size / 8)}px solid ${color}` }} />
-  // triangle
+
   return (
     <div
       style={{
@@ -102,8 +99,7 @@ export default function HeroSlideshow() {
   const [index, setIndex] = useState(0)
   const reducedMotion = usePrefersReducedMotion()
 
-  // Autoplay every 6 seconds. With reduced motion on, the first slide stays.
-  // TODO Week 2: add a small pause button (accessibility fix to log in the issue log).
+
   useEffect(() => {
     if (reducedMotion) return
     const id = setInterval(() => setIndex((i) => (i + 1) % SLIDES.length), INTERVAL_MS)
@@ -117,7 +113,7 @@ export default function HeroSlideshow() {
       aria-labelledby="hero-title"
       className="on-dark relative overflow-hidden bg-cocoa text-white md:min-h-[27rem]"
     >
-      {/* Background layers crossfade. They are decorative, so hidden from screen readers. */}
+    
       {SLIDES.map((s, i) => (
         <div
           key={s.id}
@@ -148,7 +144,7 @@ export default function HeroSlideshow() {
           Browse clubs
         </Link>
 
-        {/* Activity stickers: decorative. Row under the button on phones, scattered on desktop. */}
+        
         <div
           key={`stickers-${slide.id}`}
           aria-hidden="true"
@@ -170,7 +166,7 @@ export default function HeroSlideshow() {
           ))}
         </div>
 
-        {/* Indicator only: not clickable */}
+       
         <div aria-hidden="true" className="mt-8 flex gap-2">
           {SLIDES.map((s, i) => (
             <span

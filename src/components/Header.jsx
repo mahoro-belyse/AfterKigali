@@ -25,7 +25,7 @@ export default function Header() {
     return () => document.removeEventListener('keydown', onKeyDown)
   }, [open])
 
-  // NavLink adds aria-current="page" to the active link; we also style it
+  
   const linkClass = ({ isActive }) =>
     [
       'block rounded-lg px-4 py-2 font-semibold transition-colors',

@@ -4,8 +4,6 @@ import { getActivity } from '../data/activities.js'
 
 const money = new Intl.NumberFormat('en-US')
 
-// Text from data is rendered as plain text by React, never as HTML.
-// Missing fields are skipped instead of crashing (Week 4 hardens this further).
 export default function ClubCard({ club }) {
   const activity = getActivity(club.activity)
   const Icon = activity?.icon
