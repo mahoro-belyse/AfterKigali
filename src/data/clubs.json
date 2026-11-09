@@ -9,7 +9,7 @@
     "area": "Kimihurura",
     "description": "Build simple games and websites with friendly mentors.",
     "priceMonthly": 20000,
-    "contact": "codelab@example.com"
+    "contact": "codelab@gmail.com"
   },
   {
     "id": "club-002",
@@ -21,7 +21,7 @@
     "area": "Kacyiru",
     "description": "Painting, drawing, and craft sessions for young artists.",
     "priceMonthly": 15000,
-    "contact": "artstudio@example.com"
+    "contact": "artstudio@gmail.com"
   },
   {
     "id": "club-003",
@@ -33,6 +33,66 @@
     "area": "Remera",
     "description": "Learn drums, guitar, and keyboard, then play together.",
     "priceMonthly": 25000,
-    "contact": "musiccircle@example.com"
+    "contact": "musiccircle@gmail.com"
+  },
+  {
+    "id": "club-004",
+    "name": "Swift Feet Football Club",
+    "activity": "sports",
+    "ageMin": 10,
+    "ageMax": 13,
+    "days": ["Monday", "Wednesday"],
+    "area": "Nyarutarama",
+    "description": "Skills training and friendly matches after school.",
+    "priceMonthly": 18000,
+    "contact": "swiftfeet@gmail.com"
+  },
+  {
+    "id": "club-005",
+    "name": "Moonlight Dance Crew",
+    "activity": "dance",
+    "ageMin": 14,
+    "ageMax": 18,
+    "days": ["Thursday", "Friday"],
+    "area": "Kicukiro",
+    "description": "Hip hop and traditional dance, from basics to showcase.",
+    "priceMonthly": 12000,
+    "contact": "dancecrew@gmail.com"
+  },
+  {
+    "id": "club-006",
+    "name": "Bright Minds Study Circle",
+    "activity": "tutoring",
+    "ageMin": 10,
+    "ageMax": 13,
+    "days": ["Saturday"],
+    "area": "Kimironko",
+    "description": "Homework help and small-group maths and science tutoring.",
+    "priceMonthly": 10000,
+    "contact": "brightminds@gmail.com"
+  },
+  {
+    "id": "club-007",
+    "name": "Spark Robotics Lab",
+    "activity": "robotics-science",
+    "ageMin": 10,
+    "ageMax": 13,
+    "days": ["Tuesday"],
+    "area": "Gikondo",
+    "description": "Build and program small robots and run simple experiments.",
+    "priceMonthly": 22000,
+    "contact": "sparklab@gmail.com"
+  },
+  {
+    "id": "club-008",
+    "name": "Stage Voices Drama Club",
+    "activity": "drama-debate",
+    "ageMin": 14,
+    "ageMax": 18,
+    "days": ["Wednesday"],
+    "area": "Nyamirambo",
+    "description": "Acting, public speaking, and debate practice.",
+    "priceMonthly": 14000,
+    "contact": "stagevoices@gmail.com"
   }
 ]

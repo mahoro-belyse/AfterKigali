@@ -10,7 +10,7 @@ export default function Clubs() {
   const [filtersOpen, setFiltersOpen] = useState(false)
   const buttonRef = useRef(null)
 
-  // Escape closes the filters panel on phones and returns focus to its button
+  
   function handleKeyDown(e) {
     if (e.key === 'Escape' && filtersOpen) {
       setFiltersOpen(false)
@@ -27,7 +27,7 @@ export default function Clubs() {
         </p>
       </div>
 
-      {/* Phones and tablets: the filters sit behind a button */}
+      
       <div className="mt-6 lg:hidden">
         <button
           ref={buttonRef}
@@ -48,7 +48,7 @@ export default function Clubs() {
       </div>
 
       <div className="mt-4 grid gap-6 lg:mt-8 lg:grid-cols-[18rem_1fr]">
-        {/* Desktop: always visible sidebar. Phones: opens and closes. */}
+      
         <div
           id="filters-panel"
           className={`${filtersOpen ? 'block' : 'hidden'} lg:sticky lg:top-4 lg:block lg:self-start`}

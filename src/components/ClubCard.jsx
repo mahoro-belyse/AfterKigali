@@ -1,4 +1,4 @@
-import { CalendarDays, MapPin } from 'lucide-react'
+import { CalendarDays, Mail, MapPin } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { getActivity } from '../data/activities.js'
 
@@ -41,6 +41,18 @@ export default function ClubCard({ club }) {
             {club.area}
           </p>
         )}
+
+        {club.contact && (
+  <p className="flex items-center gap-2 text-sm">
+    <Mail aria-hidden="true" size={18} className="shrink-0" />
+    <a
+      href={`mailto:${club.contact}`}
+      className="min-w-0 break-words underline-offset-4 hover:text-raspberry-dark hover:underline"
+    >
+      {club.contact}
+    </a>
+  </p>
+)}
 
         {hasPrice && (
           <p className="mt-auto text-lg font-semibold">
