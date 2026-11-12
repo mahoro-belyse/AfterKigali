@@ -61,7 +61,6 @@ export default function FilterPanel({ count, onApply }) {
       </div>
 
       <div className="flex flex-col gap-2">
-        {/* Only needed on phones, where the panel opens and closes */}
         <button
           type="submit"
           className="rounded-xl bg-raspberry px-4 py-2.5 font-semibold text-white hover:bg-raspberry-dark lg:hidden"
